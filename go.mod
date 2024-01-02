@@ -2,6 +2,8 @@ module istio.io/client-go
 
 go 1.21
 
+replace istio.io/api => github.com/stevenctl/api v0.0.0-20240102123403-5dd926f0432d
+
 require (
 	istio.io/api v1.19.0-alpha.1.0.20240102154838-001ea8671f2d
 	k8s.io/apimachinery v0.29.0
